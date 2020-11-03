@@ -1,7 +1,7 @@
 console.log("Extension running");
 let paragraph = document.getElementsByTagName("p");
 for(let i of paragraph){
-    i.style['background-color']='green';
+    i.style['background-color']='#f2a0dc';
 }
 if(document.getElementsByTagName('h1') && document.getElementsByTagName('h1').length>0){
     document.getElementsByTagName('h1')[0]['style']['display'] = 'none';
